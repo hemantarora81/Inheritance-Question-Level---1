@@ -1,0 +1,27 @@
+package com.company;
+class Shape{
+    public Shape(){
+        System.out.println("This is Shape");;
+    }
+}
+class Rectangle1 extends Shape{
+    public Rectangle1(){
+        System.out.println("This is Rectangular shape");
+    }
+    public void Square(){
+        System.out.println("Square is Rectangle");
+    }
+}
+class Circle extends Shape{
+    public Circle(){
+        System.out.println("This is Circular Shape");
+    }
+
+}
+public class Question_4 {
+    public static void main(String[] args) {
+        Rectangle1 r = new Rectangle1();
+        r.Square();
+//        System.out.println(r);
+    }
+}
